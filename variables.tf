@@ -29,3 +29,7 @@ variable "aws_private_subnets" {
 variable "aws_azs" {
     type = list(string)
 }
+
+variable "aws_ec2_ami" {
+    type = string
+}
